@@ -13,3 +13,5 @@ for _ in range(t):
         arr = input().split()
 	
         ans = fun(arr, n)
+
+        print(ans)
