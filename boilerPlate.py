@@ -10,9 +10,11 @@ class Mat:
 			self.mat.append(temp)
 
 	def __str__(self):
-		for i in range(self.dim[0]):
-			for j in range(self.dim[1]):
-				print(self.mat[i][j], end=' ')
+        ret = ''
+        for i in range(self.dim[0]):
+            for j in range(self.dim[1]):
+                ret += str(self.mat[i][j]) + ' '
+        return ret
 
 
 
