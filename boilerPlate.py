@@ -1,5 +1,5 @@
 class Mat:
-	def __init__(arr, m, n):
+	def __init__(self, arr, m, n):
 		# there are m rows and n columns
 		self.mat = []
 		for i in range(m):
