@@ -1,3 +1,14 @@
+# def make_mat(arr, m, n):
+# 	# there are m rows and n columns
+# 	mat = []
+# 	for i in range(m):
+# 		temp = []
+# 		for j in range(n):
+# 			temp.append(arr[i*n + j])
+# 		mat.append(temp)
+# 	return mat
+
+
 def fun(arr, n):
 	pass
 
