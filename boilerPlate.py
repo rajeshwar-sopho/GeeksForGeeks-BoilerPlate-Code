@@ -1,12 +1,12 @@
-# def make_mat(arr, m, n):
-# 	# there are m rows and n columns
-# 	mat = []
-# 	for i in range(m):
-# 		temp = []
-# 		for j in range(n):
-# 			temp.append(arr[i*n + j])
-# 		mat.append(temp)
-# 	return mat
+class Mat:
+	def __init__(arr, m, n):
+		# there are m rows and n columns
+		self.mat = []
+		for i in range(m):
+			temp = []
+			for j in range(n):
+				temp.append(arr[i*n + j])
+			self.mat.append(temp)
 
 
 def fun(arr, n):
